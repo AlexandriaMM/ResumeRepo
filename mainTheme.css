@@ -41,19 +41,22 @@ body {
 #story {
     background-color: #D3D3D3;
     border-radius: 25px;
-    padding: 5px;
+    padding: 1em;
     margin: 5px;
-    height: 500px;
+    height: 600px;
 }
 
 #description {
+    text-indent: 25px;
     float: left;
-    width: 50%;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #picture {
     float:right;
     width: 25%;
     height: 250px;
+    padding-right: 1em;
 }
 
 h1 {
@@ -77,6 +80,8 @@ li {
     height: 50px;
     border-radius: 25px;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 footer {
