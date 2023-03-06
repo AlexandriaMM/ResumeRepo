@@ -3,7 +3,8 @@
     <head>
         <link rel="stylesheet" href="mainTheme.css">
         <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type = "text/javascript" src="demoJQT.js"></script>
+        <script type = "text/javascript" src="mainJS.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
     </head>
     <body>
         <header>
@@ -14,11 +15,11 @@
                 <h1><b>Alexandria</b></h1>
                 <h1><b>Macko-Millard</b></h1>
                 <br><br>
-                <h2><i>Dedicated, Passionate, Motivated, Technology Enthusiast</i></h2>
+                <h2 id="subtitle"><i>Dedicated, Passionate, Motivated, Technology Enthusiast</i></h2>
                 <br><br>
                 <nav>
                     <ul>
-                        <li><a href="#courses">Coursework</a></li>
+                        <li><a href="#coursework">Coursework</a></li>
                         <li><a href="#experience">Experience</a></li>
                         <li><a href="https://github.com/AlexandriaMM" target="_blank">Github</a></li>
                         <li><a href="https://www.linkedin.com/in/alexandria-macko-millard-11629081/" target="_blank">Linkedin</a></li>
@@ -34,9 +35,9 @@
                     <div id="description">
                         <p>As I approached graduation from Parma Senior High in 2012, I had my eyes set on Baldwin Wallace University. During high school, I was an active member of the performing arts community and saw BW as the next logical step. Fast forward to my freshmen year at Baldwin Wallace and my goal was to become a music therapist with guitar and vocals being my primary instrument. </p>
                         <p>So how did my major become computer science?</p>
-                        <p>Prior to BW, I had zero exposure to the field of computer science. My first experience with programming was at an ACM (Association for Computing Machinery) LAN party. Although there were plenty of video and card games to capture my attention, my curiosity peaked the moment I noticed a few students working on a programming assignment. The code on their screen looked entirely different from anything I had seen before and I couldn’t help but ask what they were up to. After these kind students gave me a basic explanation of their assignment, I enrolled in the Intro to Computer Science course offered at Baldwin Wallace and I was not disappointed. Everything I learned in Intro to Computer science only made me want to learn more. In a matter of months, my major had changed to Computer Science and my full attention was dedicated to becoming a software developer. </p>
+                        <p>Prior to BW, I had zero exposure to the field of computer science. My first experience with programming was at an <a href="https://bw.acm.org/" target="_blank">ACM (Association for Computing Machinery)</a> LAN party. Although there were plenty of video and card games to capture my attention, my curiosity peaked the moment I noticed a few students working on a programming assignment. The code on their screen looked entirely different from anything I had seen before and I couldn’t help but ask what they were up to. After these kind students gave me a basic explanation of their assignment, I enrolled in the Intro to Computer Science course offered at Baldwin Wallace and I was not disappointed. Everything I learned in Intro to Computer science only made me want to learn more. In a matter of months, my major had changed to Computer Science and my full attention was dedicated to becoming a software developer. </p>
                         <p>My initial concerns were as follows: Will I be able to keep up in classes even though I have no background in the field? Am I smart enough for this? </p>  
-                        <p>Being a first-generation college student, there were times when I felt as though I didn’t belong. Doubts and insecurities lingered in my mind as my physical and mental health suffered so much that I had to make the tough decision to leave Baldwin Wallace in 2015. In the time period from 2015 until 2023, I moved to another state and started my first job as a software developer. My top priority was to focus on my mental and physical health, meeting with doctors, and receiving the appropriate treatments necessary. I knew that if my mind and body were in a better place, I would have the power to reach all of my personal goals. In 2020, we all know what happened: the Covid-19 pandemic. I made the decision, with my husband, to return back to Ohio so that I could have the ability to visit with my grandmother, Marion Macko who was battling cancer. In July 2022 my grandmother moved on from this world. My heart was broken and I began seriously contemplating what I want out of this life. I decided that graduating from Baldwin Wallace University with my bachelor's degree in Computer Science would be my number one priority and it still is to this day. </p>
+                        <p>Being a first-generation college student, there were times when I felt as though I didn’t belong. Doubts and insecurities lingered in my mind as my physical and mental health suffered so much that I had to make the tough decision to leave Baldwin Wallace in 2015. In the time period from 2015 until 2023, I moved to another state and started my first job as a software developer. My top priority was to focus on my mental and physical health, meeting with doctors, and receiving the appropriate treatments necessary. I knew that if my mind and body were in a better place, I would have the power to reach all of my personal goals. In 2020, we all know what happened: the Covid-19 pandemic. I made the decision, with my husband, to return back to Ohio so that I could have the ability to visit with my grandmother, Marion Macko, who was battling cancer. In July 2022 my grandmother moved on from this world. My heart was broken and I began seriously contemplating what I want out of this life. I decided that graduating from Baldwin Wallace University with my bachelor's degree in Computer Science would be my number one priority and it still is to this day. </p>
                         <p>I am overwhelmed with excitement since returning to Baldwin Wallace University as of Spring semester 2023 and look forward to graduation in 2025! YJ4L! </p>
                     </div>
                     <img src="YellowJackets.jpg" id="picture" alt="YJ4L">
@@ -47,6 +48,53 @@
                         <p>In February 2023, I attended a conference in Huron Ohio which empowers and inspires women in the field of computing</p>
                     </div>
                     <img src="OCWiCBWgroup.jpg" id="picture" alt="YJ4L">
+                </div>
+                <div id="coursework">
+                    <h2>Coursework</h2>
+                    <div id="accordion">
+                        <h3>Information Technology Concepts for Programmers</h3>
+                        <div id="course">
+                            <p>course description of course 1</p>
+                        </div>
+                        <h3>Programming Logic</h3>
+                        <div id="course">
+                            <p>course description of course 2</p>
+                        </div>
+                        <h3>Introduction to Web Programming</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Java Programming</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Systems Analysis and Design</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Data Structures and Algorithms</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Enterprise Database Systems</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Interactive Internet Programming</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                        <h3>Computer Architecture and Organization</h3>
+                        <div id="course">
+                            <p>course description of course 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="experience">
+                    <h2>Experience</h2>
+                    <div>
+                        <p>hello world</p>
+                    </div>
                 </div>
             </div>
         </main>
